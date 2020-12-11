@@ -91,7 +91,7 @@ chk_openssl_ver()
   printf "Check for OpenSSL version 1.1.1 or greater...\n"
   ver=$(openssl version | grep "OpenSSL [1-9]*.[1-9]*.[1-9]*")
   set $ver
-  # OpenSSL version number dot-delimeted.
+  # OpenSSL version number dot-delimited.
   ver_num=$2
   
   # Delete dots.
