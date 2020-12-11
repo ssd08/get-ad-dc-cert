@@ -7,7 +7,7 @@ get-ad-dc-cert.sh is a Bash script that uses OpenSSL and sed to get the public-k
 <br/>```chmod 755 /usr/local/bin/get-ad-dc-cert.sh```
 
 ## Usage
-Depending on your ```$PATH```, one of the commands below can be ued to run the script.<br/><br/>
+Depending on your ```$PATH```, one of the commands below can be used to run the script.<br/><br/>
 ```get-ad-dc-cert.sh```<br/>
 or<br/>
 ```/usr/local/bin/get-ad-dc-cert.sh```<br/>
